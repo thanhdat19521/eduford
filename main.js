@@ -10,3 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
         (scroll) ? menu.classList.add('menu') : menu.classList.remove('menu')
     })
 })
+
+
+//.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1.")
